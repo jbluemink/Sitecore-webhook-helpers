@@ -238,6 +238,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Event\RaiseCustomIndexing.cs" />
+    <Compile Include="Converter\ToStringJsonConverter.cs" />
+    <Compile Include="Model\TeamsText.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -245,6 +248,9 @@
     <Content Include="webhooklog.ashx" />
     <Content Include="webhooksitecorelog.ashx" />
     <Content Include="webhooksitecorelogvalidation.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Config\Include\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
