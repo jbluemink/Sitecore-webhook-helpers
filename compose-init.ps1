@@ -299,3 +299,21 @@ function Invoke-ComposeInit {
 
 $logFilePath = Join-Path -path (Split-Path -Parent $MyInvocation.MyCommand.Path) -ChildPath "compose-init-$(Get-date -f 'yyyyMMddHHmmss').log";
 Invoke-ComposeInit *>&1 | Tee-Object $logFilePath
+
+################################
+# Add Sitecore CLI
+################################
+
+Write-Host "Adding Sitecore CLI..." -ForegroundColor Green
+
+$sitecoreCheck = dotnet nuget list source |  Where-Object {$_ -like "*Sitecore*"} | Select-Object
+dotnet new tool-manifest --force
+if($sitecoreCheck) 
+{
+  dotnet nuget remove source Sitecore
+}
+dotnet nuget add source -n Sitecore https://sitecore.myget.org/F/sc-packages/api/v3/index.json
+dotnet tool install Sitecore.CLI --version 5.1.25
+dotnet sitecore plugin init --version 5.1.25 --overwrite
+
+Write-Host "Done!" -ForegroundColor Green
