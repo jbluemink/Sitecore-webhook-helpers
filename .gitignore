@@ -1,3 +1,16 @@
+######### Sitecore
+
+.sitecore/
+cd/
+cm/
+packages/
+solr-data/
+src/bin/
+src/obj/
+traefik/
+mssql-data/
+device-detection-data/
+
 #################
 ## Eclipse
 #################

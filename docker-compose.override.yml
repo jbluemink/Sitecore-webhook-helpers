@@ -1,3 +1,5 @@
+version: "2.4"
+
 services:
   solution:
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}

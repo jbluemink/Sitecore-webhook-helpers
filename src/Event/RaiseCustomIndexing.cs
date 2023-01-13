@@ -29,7 +29,7 @@ namespace Sitecore.Webhook.Helpers.Event
                        
 
                         var teamsMessage = new text();
-                        teamsMessage.textmessage = "oo oo ooo";
+                        teamsMessage.textmessage = "Hello from RaiseCustomIndexing "+ sitecoreEventArgs.Parameters[0].ToString();
                         parameters.Add(teamsMessage);
 
                         parameters.AddRange(sitecoreEventArgs.Parameters);
