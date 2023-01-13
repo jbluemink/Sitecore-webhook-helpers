@@ -116,6 +116,9 @@
     <Reference Include="protobuf-net, Version=2.0.0.668, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\protobuf-net.2.0.0.668\lib\net40\protobuf-net.dll</HintPath>
     </Reference>
+    <Reference Include="RadioPollResult">
+      <HintPath>..\..\RadioPollResult\bin\RadioPollResult.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Data.ResourceItems.Abstractions, Version=18.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Sitecore.Data.ResourceItems.Abstractions.10.3.0\lib\netstandard2.0\Sitecore.Data.ResourceItems.Abstractions.dll</HintPath>
     </Reference>
@@ -246,10 +249,13 @@
   <ItemGroup>
     <Content Include="App_Config\Include\Webhook.index.config" />
     <Content Include=".serialization\WebhookHelpers.module.json" />
+    <Content Include="App_Config\Include\CustomFlushPartialCacheRemoteEvent.config" />
     <None Include="packages.config" />
     <Content Include="webhooklog.ashx" />
     <Content Include="webhooksitecorelog.ashx" />
     <Content Include="webhooksitecorelogvalidation.ashx" />
+    <Content Include="Views\layouts\Main.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

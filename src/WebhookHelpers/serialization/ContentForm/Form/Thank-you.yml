@@ -1,8 +1,8 @@
 ﻿---
-ID: "bf1eeb37-513d-479f-b47a-5ea16e6e3c36"
-Parent: "278992da-619c-4ba5-bda2-939d7a3a7d0e"
+ID: "ddc56e8f-b909-4551-beac-dde0bcde2bd3"
+Parent: "43408779-2ec1-43e6-97f6-1c1b15a4dc80"
 Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
-Path: /sitecore/system/Settings/Webhooks/Rule Items/sitecore_core_index
+Path: "/sitecore/content/Home/Form/Thank-you"
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
@@ -14,7 +14,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20221210T094522Z
+      Value: 20230113T145511Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
@@ -24,4 +24,7 @@ Languages:
         sitecore\Admin
     - ID: "75577384-3c97-45da-a847-81b00500e250"
       Hint: Title
-      Value: sitecore_core_index
+      Value: Thank You
+    - ID: "a60acd61-a6db-4182-8329-c957982cec74"
+      Hint: Text
+      Value: <p>Form submitted,  and trigger the   CustomFlushPartialCacheRemoteEvent  </p>

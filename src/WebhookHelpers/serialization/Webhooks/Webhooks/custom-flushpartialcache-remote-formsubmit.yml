@@ -1,0 +1,33 @@
+﻿---
+ID: "b1f2f738-aa4a-4bfa-beb4-9f9b998984ea"
+Parent: "7d2fa73d-6ae7-47cb-8d0b-d64671768c82"
+Template: "f05212ce-30a7-4733-a7f4-ed6e13f26692"
+Path: "/sitecore/system/Webhooks/custom-flushpartialcache-remote-formsubmit"
+SharedFields:
+- ID: "70bcf39c-e567-4bc5-9dfa-3503810ef820"
+  Hint: Enabled
+  Value: 1
+- ID: "81ad5a23-de34-4ff2-9276-035230250a37"
+  Hint: Events
+  Value: |
+    {27ADD6DB-F67A-40E3-B5A3-B0C32D5E27D3}
+    {EC6D4C38-7C9B-4CA5-BAB2-B463B23180B6}
+- ID: "f9f59338-045d-4da8-80f0-ce7f7d92e4af"
+  Hint: Url
+  Value: "http://localhost/webhooklog.ashx"
+Languages:
+- Language: en
+  Fields:
+  - ID: "305fa64b-5785-4171-aa73-de715e21ae21"
+    Hint: Description
+    Value: "custom-flushpartialcache-remote-formsubmit"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230113T152319Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

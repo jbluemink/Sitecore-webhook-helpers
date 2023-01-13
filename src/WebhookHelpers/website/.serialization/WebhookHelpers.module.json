@@ -15,6 +15,36 @@
         "path": "/sitecore/system/Webhooks",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "ContentForm",
+        "path": "/sitecore/content/Home/Form",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "WebhookTriggerForm",
+        "path": "/sitecore/Forms/webhook trigger test",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "MVClayout",
+        "path": "/sitecore/layout/Layouts/MVC Layout",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "mainplaceholder",
+        "path": "/sitecore/layout/Placeholder Settings/main",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "FormSubmitAction",
+        "path": "/sitecore/system/Settings/Forms/Submit Actions/Custom Flush Partial Cache",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
       }
     ]
   }

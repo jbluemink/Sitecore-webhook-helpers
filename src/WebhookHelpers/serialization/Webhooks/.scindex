@@ -1,0 +1,37 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\Webhooks\Webhooks\customindexing-end-to-teams.yml
+ID: "d31b4896-39bb-417f-8983-8a2467ae23c8"
+Parent: "7d2fa73d-6ae7-47cb-8d0b-d64671768c82"
+Template: "f05212ce-30a7-4733-a7f4-ed6e13f26692"
+Path: "/sitecore/system/Webhooks/customindexing-end-to-teams"
+Signature: 9kzpeIXGBIw3or03nNFNX80X7ekrxXlrWBmn2q1tbX8=
+Modified: 638092103890638753
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\Webhooks\Webhooks\customindexing-end.yml
+ID: "98d5231d-c1ca-498f-855c-4e5c52013369"
+Parent: "7d2fa73d-6ae7-47cb-8d0b-d64671768c82"
+Template: "f05212ce-30a7-4733-a7f4-ed6e13f26692"
+Path: "/sitecore/system/Webhooks/customindexing-end"
+Signature: TiVmk54bE4wdTcFCMaI55Gh6r8nTyrn43XHxXC/fmy8=
+Modified: 638092103890615410
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\Webhooks\Webhooks\index-end.yml
+ID: "b4bedf6e-2312-4e6d-9052-d7c6d3232cf3"
+Parent: "7d2fa73d-6ae7-47cb-8d0b-d64671768c82"
+Template: "f05212ce-30a7-4733-a7f4-ed6e13f26692"
+Path: "/sitecore/system/Webhooks/index-end"
+Signature: obXhkIoZ7EFr+aHps8JxwvtTJ2wwA+YFl+2CrXetoO4=
+Modified: 638092103890648916
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\Webhooks\Webhooks\item save.yml
+ID: "963e04bb-585b-4681-bc22-42d25ba22dfb"
+Parent: "7d2fa73d-6ae7-47cb-8d0b-d64671768c82"
+Template: "f05212ce-30a7-4733-a7f4-ed6e13f26692"
+Path: /sitecore/system/Webhooks/item save
+Signature: JcnBb7K6TfTJ97kin9UOJT97+rkUXrvlvoxH5ojZoCA=
+Modified: 638092103890664219
