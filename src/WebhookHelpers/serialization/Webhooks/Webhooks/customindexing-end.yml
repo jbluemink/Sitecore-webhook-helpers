@@ -1,0 +1,46 @@
+﻿---
+ID: "98d5231d-c1ca-498f-855c-4e5c52013369"
+Parent: "7d2fa73d-6ae7-47cb-8d0b-d64671768c82"
+Template: "f05212ce-30a7-4733-a7f4-ed6e13f26692"
+Path: "/sitecore/system/Webhooks/customindexing-end"
+SharedFields:
+- ID: "70bcf39c-e567-4bc5-9dfa-3503810ef820"
+  Hint: Enabled
+  Value: 1
+- ID: "81ad5a23-de34-4ff2-9276-035230250a37"
+  Hint: Events
+  Value: "{AA89B3D8-F2FE-412C-B511-9DB9BF2FEA3F}"
+- ID: "98573c19-16c4-4c15-9cb2-355834914061"
+  Hint: Rule
+  Value: |
+    <ruleset>
+      <rule
+        uid="{54FAD51D-4D12-40DE-AA45-527F9D8CC5DD}">
+        <conditions>
+          <condition
+            id="{944E1C68-CAF1-468E-87DC-CE85D168D961}"
+            uid="3982B5BBDE594E1EB0E482BC06E26D83"
+            operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+            value="master" />
+        </conditions>
+      </rule>
+    </ruleset>
+- ID: "f9f59338-045d-4da8-80f0-ce7f7d92e4af"
+  Hint: Url
+  Value: "http://localhost/webhooklog.ashx"
+Languages:
+- Language: en
+  Fields:
+  - ID: "305fa64b-5785-4171-aa73-de715e21ae21"
+    Hint: Description
+    Value: "customindexing:end"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230108T200346Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

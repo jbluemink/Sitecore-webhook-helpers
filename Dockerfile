@@ -31,7 +31,7 @@ COPY src\ .\src\
 RUN Invoke-Expression 'robocopy C:\build\src C:\out\transforms /s /ndl /njh /njs *.xdt'
 
 # Build website with file publish
-RUN msbuild .\src\Sitecore.Webhook.Helpers.csproj /p:Configuration=$env:BUILD_CONFIGURATION /p:DeployOnBuild=True /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:PublishUrl=C:\out\website
+RUN msbuild .\Sitecore.Webhook.Helpers.sln /p:Configuration=$env:BUILD_CONFIGURATION /p:DeployOnBuild=True /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:PublishUrl=C:\out\website
 
 FROM ${BASE_IMAGE}
 

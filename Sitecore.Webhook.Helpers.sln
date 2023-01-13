@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Webhook.Helpers", "src\Sitecore.Webhook.Helpers.csproj", "{0D5DBF98-7B1B-49E8-BA1B-2D582E11F61E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Webhook.Helpers", "src\WebhookHelpers\website\Sitecore.Webhook.Helpers.csproj", "{0D5DBF98-7B1B-49E8-BA1B-2D582E11F61E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

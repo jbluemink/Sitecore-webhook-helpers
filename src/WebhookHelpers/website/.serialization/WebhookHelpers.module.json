@@ -1,0 +1,21 @@
+﻿{
+  "namespace": "Webhook.Helpers",
+  "references": [],
+  "tags": [ "managed" ],
+  "items": {
+    "includes": [
+      {
+        "name": "WebhooksRuleItems",
+        "path": "/sitecore/system/Settings/Webhooks/Rule Items",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "Webhooks",
+        "path": "/sitecore/system/Webhooks",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}
