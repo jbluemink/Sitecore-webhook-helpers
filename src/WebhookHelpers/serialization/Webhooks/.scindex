@@ -35,3 +35,12 @@ Template: "f05212ce-30a7-4733-a7f4-ed6e13f26692"
 Path: /sitecore/system/Webhooks/item save
 Signature: JcnBb7K6TfTJ97kin9UOJT97+rkUXrvlvoxH5ojZoCA=
 Modified: 638092103890664219
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\Webhooks\Webhooks\custom-flushpartialcache-remote-formsubmit.yml
+ID: "b1f2f738-aa4a-4bfa-beb4-9f9b998984ea"
+Parent: "7d2fa73d-6ae7-47cb-8d0b-d64671768c82"
+Template: "f05212ce-30a7-4733-a7f4-ed6e13f26692"
+Path: "/sitecore/system/Webhooks/custom-flushpartialcache-remote-formsubmit"
+Signature: tRFm/8m09mOWE5F1t2QdxThPt/Yxi9yis3NICCLMSFs=
+Modified: 638092217408516441

@@ -1,0 +1,19 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\ContentForm\Form\Thank-you.yml
+ID: "ddc56e8f-b909-4551-beac-dde0bcde2bd3"
+Parent: "43408779-2ec1-43e6-97f6-1c1b15a4dc80"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: "/sitecore/content/Home/Form/Thank-you"
+Signature: e3HhJID1ZOLV8mBUyTpktETV5wsQT6O/smYqkh3NmI4=
+Modified: 638092217408553032
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\ContentForm\Form.yml
+ID: "43408779-2ec1-43e6-97f6-1c1b15a4dc80"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: /sitecore/content/Home/Form
+Signature: detP7inQeGmNmmqwtELM5iAz7sUAjbH2ApHqDq1cvb0=
+Modified: 638092217408533040

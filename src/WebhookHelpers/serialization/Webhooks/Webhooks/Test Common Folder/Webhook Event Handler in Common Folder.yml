@@ -1,17 +1,15 @@
 ﻿---
-ID: "b1f2f738-aa4a-4bfa-beb4-9f9b998984ea"
-Parent: "7d2fa73d-6ae7-47cb-8d0b-d64671768c82"
+ID: "78551c67-adad-496a-9a49-c54daa293221"
+Parent: "ab24e094-ecb4-4a0f-aa2b-65ae9bad1252"
 Template: "f05212ce-30a7-4733-a7f4-ed6e13f26692"
-Path: "/sitecore/system/Webhooks/custom-flushpartialcache-remote-formsubmit"
+Path: /sitecore/system/Webhooks/Test Common Folder/Webhook Event Handler in Common Folder
 SharedFields:
 - ID: "70bcf39c-e567-4bc5-9dfa-3503810ef820"
   Hint: Enabled
   Value: 
 - ID: "81ad5a23-de34-4ff2-9276-035230250a37"
   Hint: Events
-  Value: |
-    {27ADD6DB-F67A-40E3-B5A3-B0C32D5E27D3}
-    {EC6D4C38-7C9B-4CA5-BAB2-B463B23180B6}
+  Value: "{10F78F45-7C58-4753-A09E-41D890EA2A2B}"
 - ID: "f9f59338-045d-4da8-80f0-ce7f7d92e4af"
   Hint: Url
   Value: "http://localhost/webhooklog.ashx"
@@ -20,13 +18,13 @@ Languages:
   Fields:
   - ID: "305fa64b-5785-4171-aa73-de715e21ae21"
     Hint: Description
-    Value: "custom-flushpartialcache-remote-formsubmit"
+    Value: "Are folder working?"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230113T152319Z
+      Value: 20230114T102302Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

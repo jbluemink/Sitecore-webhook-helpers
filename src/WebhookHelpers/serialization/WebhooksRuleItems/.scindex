@@ -1,33 +1,6 @@
 ﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
 ---
 File: |
-  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhooksRuleItems\Rule Items\sitecore_web_index.yml
-ID: "ef67c787-9cbe-4aa3-ac45-c90266f3163d"
-Parent: "278992da-619c-4ba5-bda2-939d7a3a7d0e"
-Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
-Path: /sitecore/system/Settings/Webhooks/Rule Items/sitecore_web_index
-Signature: 4eYswuw+aD9/bdCA8cM66qdL2wRmP5/gk5l5d4Wz2Lw=
-Modified: 638092103890595389
----
-File: |
-  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhooksRuleItems\Rule Items\sitecore_core_index.yml
-ID: "bf1eeb37-513d-479f-b47a-5ea16e6e3c36"
-Parent: "278992da-619c-4ba5-bda2-939d7a3a7d0e"
-Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
-Path: /sitecore/system/Settings/Webhooks/Rule Items/sitecore_core_index
-Signature: w3q8ycJT4LKuqVt4tgv1V8adQEvEVLDRBHqmX7Qxcr4=
-Modified: 638092103890575252
----
-File: |
-  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhooksRuleItems\Rule Items\sitecore_master_index.yml
-ID: "fbb00268-9399-44a6-94c0-fa20cdde5202"
-Parent: "278992da-619c-4ba5-bda2-939d7a3a7d0e"
-Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
-Path: /sitecore/system/Settings/Webhooks/Rule Items/sitecore_master_index
-Signature: B9G1qKiSG56oYVezM6846oNhof1iiS3akN69N1vVLUg=
-Modified: 638092103890585249
----
-File: |
   C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhooksRuleItems\Rule Items.yml
 ID: "278992da-619c-4ba5-bda2-939d7a3a7d0e"
 Parent: "38e1a773-4348-439b-91f5-567e0270ca80"
@@ -35,3 +8,30 @@ Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: /sitecore/system/Settings/Webhooks/Rule Items
 Signature: NuH4lTlaw9m7mdlmqRfFLZVqCP0zLPXz6dh3GcMG+9s=
 Modified: 638092103890539991
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhooksRuleItems\Rule Items\sitecore_core_index.yml
+ID: "bf1eeb37-513d-479f-b47a-5ea16e6e3c36"
+Parent: "278992da-619c-4ba5-bda2-939d7a3a7d0e"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: /sitecore/system/Settings/Webhooks/Rule Items/sitecore_core_index
+Signature: 7UWaLs2xErBWCNEOhYZoi1g4c+xhM3mYnPZTbKfzdQk=
+Modified: 638092217408446485
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhooksRuleItems\Rule Items\sitecore_web_index.yml
+ID: "ef67c787-9cbe-4aa3-ac45-c90266f3163d"
+Parent: "278992da-619c-4ba5-bda2-939d7a3a7d0e"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: /sitecore/system/Settings/Webhooks/Rule Items/sitecore_web_index
+Signature: EOx2EszgmefjByMrtTsIvaUUtJ3xTb9uXMEXp7TX5dw=
+Modified: 638092217408486478
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhooksRuleItems\Rule Items\sitecore_master_index.yml
+ID: "fbb00268-9399-44a6-94c0-fa20cdde5202"
+Parent: "278992da-619c-4ba5-bda2-939d7a3a7d0e"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: /sitecore/system/Settings/Webhooks/Rule Items/sitecore_master_index
+Signature: x0IMDaKXuxElTIgHUkFqBQg7hhaHQ1rjE5uddyVzTGU=
+Modified: 638092217408476502

@@ -1,0 +1,91 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhookTriggerForm\webhook trigger test\Page.yml
+ID: "d2a3e956-75d6-4fc9-b076-6d724078b1e6"
+Parent: "bcda3e58-2251-4748-bd8a-e98cd3c2db44"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: /sitecore/Forms/webhook trigger test/Page
+Signature: McGw0HDjHmpaPqzgXniT+HskHPIhRO910bf8RRAkzgE=
+Modified: 638092217408587635
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhookTriggerForm\webhook trigger test.yml
+ID: "bcda3e58-2251-4748-bd8a-e98cd3c2db44"
+Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: /sitecore/Forms/webhook trigger test
+Signature: ZKb8aYWcE+V8it8Pn3ht9L+9YR6+N3iVwMHRP2KZX3Q=
+Modified: 638092217408574990
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhookTriggerForm\webhook trigger test\Page\Submit Button.yml
+ID: "76165d05-bdc0-483c-baa0-3b34b1eaf991"
+Parent: "d2a3e956-75d6-4fc9-b076-6d724078b1e6"
+Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
+Path: /sitecore/Forms/webhook trigger test/Page/Submit Button
+Signature: EvjYuuEcmprNbdEC5v3e2wCLz9F1BNiG4DVyw4PVSUc=
+Modified: 638092217408624173
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhookTriggerForm\webhook trigger test\Page\Section-head.yml
+ID: "c3853a22-d304-4a76-8f70-0e66c89f3408"
+Parent: "d2a3e956-75d6-4fc9-b076-6d724078b1e6"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/webhook trigger test/Page/Section-head"
+Signature: 2QAVH0W0X/JTlBhx35ijkIl5bELPi8j4h6E2aU27Vwg=
+Modified: 638092217408613958
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhookTriggerForm\webhook trigger test\Page\Submit Button\SubmitActions.yml
+ID: "64094fb9-b315-467e-940d-a3edd8f81a34"
+Parent: "76165d05-bdc0-483c-baa0-3b34b1eaf991"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/Forms/webhook trigger test/Page/Submit Button/SubmitActions
+Signature: UMKZbkG8S1vhxnO0/A8IJ7mDrgMQnWMFv01xb34EnN0=
+Modified: 638092217408698413
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhookTriggerForm\webhook trigger test\Page\Section-head\Single-Line Text.yml
+ID: "522ec036-a818-4582-b226-156afae83964"
+Parent: "c3853a22-d304-4a76-8f70-0e66c89f3408"
+Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Path: "/sitecore/Forms/webhook trigger test/Page/Section-head/Single-Line Text"
+Signature: KsFpAj1o5kCgX0wx3qv2jDDAJZtFAnqeT9k9AjJpeq0=
+Modified: 638092217408678456
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhookTriggerForm\webhook trigger test\Page\Submit Button\SubmitActions\Redirect to Page.yml
+ID: "38382a76-db5b-4393-ba2d-bdf797223b80"
+Parent: "64094fb9-b315-467e-940d-a3edd8f81a34"
+Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
+Path: /sitecore/Forms/webhook trigger test/Page/Submit Button/SubmitActions/Redirect to Page
+Signature: KYzp+O0grFI14CpzCUOWxcFu1pm8n/wzL6CwPZ9fA0U=
+Modified: 638092217408764721
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhookTriggerForm\webhook trigger test\Page\Section-head\Text-intro.yml
+ID: "c854f8fc-5e8b-4122-97fc-614df73108ad"
+Parent: "c3853a22-d304-4a76-8f70-0e66c89f3408"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/webhook trigger test/Page/Section-head/Text-intro"
+Signature: pIhyE+ZLBDY+wVXofLg1LMgXGAGvSSyPl17SRnX6Dpg=
+Modified: 638092217408655126
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhookTriggerForm\webhook trigger test\Page\Submit Button\SubmitActions\Save Data.yml
+ID: "b0976845-bf51-47e3-911b-fe60757f442d"
+Parent: "64094fb9-b315-467e-940d-a3edd8f81a34"
+Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
+Path: /sitecore/Forms/webhook trigger test/Page/Submit Button/SubmitActions/Save Data
+Signature: 8tqpkTfXWhiXOcVJzzt5KlLv+iL3HrgmMLjSgiTlcQ8=
+Modified: 638092217408750224
+---
+File: |
+  C:\projects\Sitecore-webhook-helpers\src\WebhookHelpers\serialization\WebhookTriggerForm\webhook trigger test\Page\Submit Button\SubmitActions\Custom Flush Partial Cache.yml
+ID: "89fec27e-bd39-4e24-9fdb-a45e7b7683fd"
+Parent: "64094fb9-b315-467e-940d-a3edd8f81a34"
+Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
+Path: /sitecore/Forms/webhook trigger test/Page/Submit Button/SubmitActions/Custom Flush Partial Cache
+Signature: v/5nlTBIe9SPmre0/hpUr/rUWpSlx7YXrPTm+37lVbA=
+Modified: 638092217408735129

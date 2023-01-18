@@ -6,7 +6,7 @@ Path: "/sitecore/system/Webhooks/customindexing-end"
 SharedFields:
 - ID: "70bcf39c-e567-4bc5-9dfa-3503810ef820"
   Hint: Enabled
-  Value: 1
+  Value: 
 - ID: "81ad5a23-de34-4ff2-9276-035230250a37"
   Hint: Events
   Value: "{AA89B3D8-F2FE-412C-B511-9DB9BF2FEA3F}"

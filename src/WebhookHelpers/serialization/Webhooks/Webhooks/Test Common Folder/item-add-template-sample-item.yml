@@ -1,0 +1,48 @@
+﻿---
+ID: "e3b4a9b5-958d-4557-9d7b-414f5486278c"
+Parent: "ab24e094-ecb4-4a0f-aa2b-65ae9bad1252"
+Template: "f05212ce-30a7-4733-a7f4-ed6e13f26692"
+Path: "/sitecore/system/Webhooks/Test Common Folder/item-add-template-sample-item"
+SharedFields:
+- ID: "70bcf39c-e567-4bc5-9dfa-3503810ef820"
+  Hint: Enabled
+  Value: 1
+- ID: "81ad5a23-de34-4ff2-9276-035230250a37"
+  Hint: Events
+  Value: "{EAB76990-706E-4343-B7FC-16A96A37C37F}"
+- ID: "98573c19-16c4-4c15-9cb2-355834914061"
+  Hint: Rule
+  Value: |
+    <ruleset>
+      <rule
+        uid="{D0368E05-6D7A-4070-BA23-E6A4AD37AC01}">
+        <conditions>
+          <and
+            uid="CBE5C63598774F6E919034A28517CDF6">
+            <condition
+              id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}"
+              uid="173E1A578D5B40838B8C975B4D7A2120"
+              templateid="{76036F5E-CBCE-46D1-AF0A-4143F9B557AA}" />
+            <condition
+              id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+              uid="E0AC67939D2D41F4A7507C1469595CA7"
+              itemid="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
+          </and>
+        </conditions>
+      </rule>
+    </ruleset>
+- ID: "f9f59338-045d-4da8-80f0-ce7f7d92e4af"
+  Hint: Url
+  Value: "http://localhost/webhooklog.ashx"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230114T110503Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

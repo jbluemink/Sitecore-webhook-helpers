@@ -1,0 +1,23 @@
+﻿---
+ID: "ab24e094-ecb4-4a0f-aa2b-65ae9bad1252"
+Parent: "7d2fa73d-6ae7-47cb-8d0b-d64671768c82"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Webhooks/Test Common Folder
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {F05212CE-30A7-4733-A7F4-ED6E13F26692}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230114T102128Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
