@@ -27,7 +27,7 @@ SharedFields:
     </ruleset>
 - ID: "f9f59338-045d-4da8-80f0-ce7f7d92e4af"
   Hint: Url
-  Value: "https://ardbs.webhook.office.com/webhookb2/05643b13-1791-4176-b6b8-986b231859d1@483951cb-a186-481f-9c82-6a7c75195ea2/IncomingWebhook/274eb68b8cc64b659b7d11a2412aee10/fc9b598f-f848-4150-be42-97206a2cf192"
+  Value: "http://localhost/webhooklog.ashx"
 Languages:
 - Language: en
   Fields:
