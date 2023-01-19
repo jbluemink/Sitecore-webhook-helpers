@@ -1,0 +1,40 @@
+﻿---
+ID: "f7a0fb2c-d4d4-4403-81a3-cdff82ca58d5"
+Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: /sitecore/Forms/testing
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 
+- ID: "c0ce58b7-2592-439d-b197-ca27bf69f7b2"
+  Hint: Is Robot Detection Enabled
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{893B9732-5D5C-4D3C-B7E8-F81D64573519}">
+        <r
+          ds="{F7A0FB2C-D4D4-4403-81A3-CDFF82CA58D5}"
+          id="{3D45FBD5-B222-4C4B-85D9-45BF0BC1C515}"
+          par=""
+          ph="form-main"
+          uid="{27265C89-8173-4B81-88A3-F7B6FF2EF29A}"
+          ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230118T212656Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

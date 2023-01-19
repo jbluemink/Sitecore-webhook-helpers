@@ -251,6 +251,9 @@
     <Content Include=".serialization\WebhookHelpers.module.json" />
     <Content Include="App_Config\Include\CustomFlushPartialCacheRemoteEvent.config" />
     <None Include="packages.config" />
+    <Content Include="css\styles.css" />
+    <Content Include="embeddedform-test.html" />
+    <Content Include="sitecore-embeddableforms.umd.js" />
     <Content Include="webhooklog.ashx" />
     <Content Include="webhooksitecorelog.ashx" />
     <Content Include="webhooksitecorelogvalidation.ashx" />

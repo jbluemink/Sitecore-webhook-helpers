@@ -23,6 +23,12 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
+        "name": "FormsTesting",
+        "path": "/sitecore/Forms/testing",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
         "name": "WebhookTriggerForm",
         "path": "/sitecore/Forms/webhook trigger test",
         "scope": "ItemAndDescendants",
