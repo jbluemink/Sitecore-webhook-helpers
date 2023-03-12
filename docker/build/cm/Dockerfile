@@ -4,12 +4,14 @@ ARG PARENT_IMAGE
 ARG TOOLS_IMAGE
 ARG SHS_IMAGE
 ARG SMS_IMAGE
+ARG SPE_IMAGE
 ARG SOLUTION_IMAGE
 
 FROM ${SOLUTION_IMAGE} as solution
 FROM ${TOOLS_IMAGE} as tools
 FROM ${SHS_IMAGE} as shs
 FROM ${SMS_IMAGE} as sms
+FROM ${SPE_IMAGE} as spe
 FROM ${PARENT_IMAGE}
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
@@ -27,6 +29,9 @@ COPY --from=shs C:\module\cm\content C:\inetpub\wwwroot
 COPY --from=shs C:\module\tools C:\module\tools
 RUN C:\module\tools\Initialize-Content.ps1 -TargetPath C:\inetpub\wwwroot; `
   Remove-Item -Path C:\module -Recurse -Force;
-  
+ 
+# spe - powershell
+COPY --from=spe \module\cm\content .\
+ 
 # Copy solution website files
 COPY --from=solution \artifacts\website\ .\

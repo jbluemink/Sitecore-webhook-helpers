@@ -16,6 +16,7 @@ services:
       args:
         PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xm1-mssql-init:${SITECORE_VERSION}
         SHS_IMAGE: ${SITECORE_MODULE_REGISTRY}sitecore-headless-services-xm1-assets:${SHS_VERSION}
+        SPE_IMAGE: ${SITECORE_MODULE_REGISTRY}sitecore-spe-assets:${SPE_VERSION}
   cm:
     build:
       context: ./docker/build/cm
@@ -24,6 +25,7 @@ services:
         TOOLS_IMAGE: ${TOOLS_IMAGE}
         SMS_IMAGE: ${SITECORE_MODULE_REGISTRY}sitecore-management-services-xp1-assets:${SMS_VERSION}
         SHS_IMAGE: ${SITECORE_MODULE_REGISTRY}sitecore-headless-services-xm1-assets:${SHS_VERSION}
+        SPE_IMAGE: ${SITECORE_MODULE_REGISTRY}sitecore-spe-assets:${SPE_VERSION}
         SOLUTION_IMAGE: ${REGISTRY}${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}
     volumes:
       - .\cm\website:C:\deploy
