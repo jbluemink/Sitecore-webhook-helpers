@@ -12,3 +12,5 @@ Write JSON data to Sitecore.Diagnostics.Log.Info
 
 - webhooksitecorelogvalidation.ashx
 Write JSON data to Sitecore.Diagnostics.Log.Info. return {"IsValid":true,"Message":""} usablr for Workflow Webhook validation action
+
+See [webhooked-on-a-feeling](https://uxbee.nl/insights/webhooked-on-a-feeling) for more detail about how to customized payload of a webhook to sent it directly to Microsoft Teams
